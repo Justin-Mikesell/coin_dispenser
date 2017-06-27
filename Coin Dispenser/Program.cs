@@ -10,9 +10,8 @@ namespace Coin_Dispenser
     {
         static void Main(string[] args)
         {
-            Bank.AmountInBank(5, 6, 3, 10);
-            Dispenser.Withdraw();
-            Dispenser.Dispense();            
+            Bank.AmountInBank(10, 16, 13, 10);
+            Dispenser.Withdraw();                      
             Receipt.Print();
         }
     }
